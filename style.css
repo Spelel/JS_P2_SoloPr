@@ -78,10 +78,3 @@ p {
     padding: 3px;
     border-style: solid;
 }
-
-.save-el {
-    font-family: Timer;
-    font-size: 60px;
-    color: white;
-    white-space: pre-wrap;
-}

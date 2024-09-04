@@ -40,14 +40,8 @@ function add3_3() {
 }
 // --------------------------------------------------------------------
 
-// let saveEl = document.getElementById("save_El")
-
 
 function reset() {
-    // countEl.textContent = count1
-    // let s1 = "HOME: " + count1 + " / " + "GUEST: " + count2 + "   "
-
-    // saveEl.textContent += s1
     count1 = 0
     countEl.textContent = count1
     count2 = 0
