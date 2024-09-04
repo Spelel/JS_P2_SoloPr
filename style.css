@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #124663;
+}
+
+@font-face {
+    font-family: 'Timer';
+    src: url('Fonts/DS-DIGIB.TTF') ;
+
+} 
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dispEl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-el1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 3%;
+    color: red;
+    font-family: Timer;
+    font-size: 300px;   
+}
+
+h3 {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 8px;
+    font-size: 84px;
+}
+
+.addEl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 30px;
+}
+
+button {
+    font-family: Timer;
+    font-size: 60px;
+    background-color: #124663;
+    color: white;
+    border-radius: 5px;
+    border-width: 4px;
+    text-align: center;
+    padding: 3px;
+    border-style: solid;
+}
+
+.resBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p {
+    font-family: Timer;
+    font-size: 60px;
+    color: white;
+    border-radius: 5px;
+    border-width: 4px;
+    text-align: center;
+    padding: 3px;
+    border-style: solid;
+}
+
+.save-el {
+    font-family: Timer;
+    font-size: 60px;
+    color: white;
+    white-space: pre-wrap;
+}
